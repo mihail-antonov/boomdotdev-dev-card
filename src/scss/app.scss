@@ -20,10 +20,19 @@ html {
 }
 
 .main {
-  height: 100vh;
   display: flex;
-  align-items: center;
   justify-content: center;
-  font-size: 10rem;
-  flex-flow: column;
+  margin-top: 50px;
+}
+
+.card {
+  border: 10px solid rgb(199, 199, 199);
+}
+
+.card-header {
+  background-color: #dcf1f1;
+}
+
+.content {
+  background-color: #b4edf1;
 }
