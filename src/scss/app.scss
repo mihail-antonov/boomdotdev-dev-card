@@ -26,13 +26,9 @@ html {
 }
 
 .card {
-  border: 10px solid rgb(199, 199, 199);
+  border: 10px solid $grey-light;
 }
 
 .card-header {
-  background-color: #dcf1f1;
-}
-
-.content {
-  background-color: #b4edf1;
+  background-color: $light;
 }
